@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes,shrink-to-fit=no,minimal-ui,viewport-fit=cover">
+        <meta name="theme-color" content="#03030F"/>
+        <meta name="description" content="As a Google Premier Partner, Tharusan provides world-class marketing solutions that help businesses expand and thrive globally." />
+
+        <title>Home | Tharusan</title>
+
+        <link rel="manifest" href="manifest.json">
+        <link rel="icon" href="favicon.png" type="image/gif">
+        <link rel="apple-touch-icon" href="assets/image/icons/icon-180x180.png">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/page.css">
+        <link rel="stylesheet" href="assets/css/main.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+        <script src="assets/js/vendors/jquery-3.5.1.min.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" defer></script>
+        <!-- Plugins -->
+        <script src="assets/js/page.js" defer></script>
+        <script src="assets/js/vendors/plugin.min.js" defer></script>
+        <!-- Lazyload -->
+        <script type="text/javascript" src="assets/js/main.js" defer></script>
+        <script src="app.js" defer></script>
+
+        
+        <script>
+            document.documentElement.className = "js";
+            var supportsCssVars = function supportsCssVars() {
+                var e,
+                t = document.createElement("style");
+                return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+            };
+        </script>
+
+    </head>
+    <!-- <body class="loading"> -->
+    <body class="loading">
+
+        <header class="main-header">
+            <div class="header_container">
+                <div class="logo">
+                    <a href="index.html"> 
+                        <img width="100%" height="auto" src="assets/image/logo.svg" alt="logo"> 
+                    </a>
+                </div>
+                <div class="side_menu">
+                    <ul>
+                        <li class=""><a class="click_page" data-target="about" href="#">About us</a></li>
+                        <li class=""><a class="click_page" data-target="creative" href="#">Services</a></li>
+                        <li class=""><a class="click_page" data-target="protfolio" href="#">Portfolio</a></li>
+                        <li class=""><a class="click_page" data-target="blog" href="#">Blog</a></li>
+                        <li class=""><a class="click_page" data-target="contact" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top_header">
+                <ul class="left">
+                    <li><a rel="noopener" target="_blank" href="https://github.com/TharusanK23"><p>Gh</p><span class="fab fa-github"></span></a></li>
+                    <li><a rel="noopener" target="_blank" href="https://www.linkedin.com/in/tharusank23/"><p>In</p><span class="fab fa-linkedin-in"></span></a></li>
+                    <li><a rel="noopener" target="_blank" href="https://www.facebook.com/TharusanK23"><p>Fb</p><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a rel="noopener" target="_blank" href="https://www.instagram.com/tharusan_k_23/"><p>Ig</p><span class="fab fa-instagram"></span></a></li>
+                    <li><a rel="noopener" target="_blank" href="https://x.com/tharusanK23"><p>Tw</p><span class="fab fa-x-twitter"></span></a></li>
+                </ul>
+                <div class="right">
+                    <div class="logo_for_mob">
+                        <a href="index.html"><img class="" src="assets/image/logo_text.svg" alt="logo"> </a>
+                    </div>
+                    <a href="contact.html" class="_btn animate-btn"><span></span> Estimate project</a>
+                    <div class="menu_click">
+                        <span class="icon">
+                            <img width="100%" height="auto" src="assets/image/menu.svg" alt="icon">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>   
+
+        <div  class="line"></div>
+        
+        <!-- mega menu wrapper --> 
+        <div class="more_menu">
+            <div class="menu_wrapper">
+                <div class="menu_click"><i></i><i></i></div>
+                <span class="for_menu_label">Menu</span>
+                <figure class="logo">
+                    <a href="index.html">
+                        <img src="assets/image/logo_text.svg" alt="logo">
+                    </a>
+                </figure>
+                <ul class="social_link">
+                    <li><a target="_blank" href="https://www.behance.net/audentodigital">Gh</a></li> 
+                    <li><a target="_blank" href="https://www.linkedin.com/company/audento-digital">In</a></li> 
+                    <li><a target="_blank" href="https://www.facebook.com/AudentoDigital">Fb</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/audentodigital/">Ig</a></li> 
+                    <li><a target="_blank" href="https://twitter.com/AudentoDigital">Tw</a></li>
+                </ul>
+                <div class="text">
+                    <p>© <span id="current-year"></span> K Tharusan. All rights reserved.</p>
+                    <p><a href="#">Privacy Policy</a></p>
+                </div>
+                <div class="menu_wraper">
+                    <ul class="nav_main_menu">
+                        <li><a href="index.html"><span>01</span> Home</a></li>
+                        <li>
+                            <a href="about.html"><span>02</span> About</a>
+                            <ul>
+                                <li><a class="click_page" data-target="client" href="#">Clients</a></li>
+                                <li><a class="click_page" data-target="client" href="#">Testimonials</a></li>
+                                <li><a class="click_page" data-target="team" href="#">Team</a></li> 
+                                <li><a href="#">Awards</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="services.html"><span>03</span> Services</a>
+                            <ul>
+                                <li><a href="services.html#pills-creative">Creative</a></li> 
+                                <li><a href="services.html#pills-web">Web</a></li>
+                                <li><a href="services.html#pills-perfo">Performance</a></li>
+                                <li><a href="services.html#pills-content">Content</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html" class="get_in_touch"><span>04</span> Get in touch</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/vendors/validate.js" defer></script>
+        
+        <main data-scroll-container="">
+            <div class="content">
+                <div class="gallery" id="wrapper">
+                    <section class="home_sec" id="home">
+                        <div class="home_div">
+                            <h1 class="glitch typing" data-scroll="" data-scroll-speed="1">Hey, I'm <span class="typed"></span></h1>
+                            <ul class="inner_page_link">
+                                <li><a class="" href="services.html">Creative</a></li>
+                                <li><a class="" href="services.html#pills-web">Web</a></li>
+                                <li><a class="" href="services.html#pills-perfo">Performance</a></li>
+                                <li><a class="" href="services.html#pills-content">Content</a></li>
+                            </ul>
+                            <div class="scroll_button" data-scroll><a class="click_page" data-target="about" href="#"><span class="fa fa-arrow-right"></span>
+                                    <p>Scroll</p>
+                                </a></div>
+                        </div>
+                    </section>
+                    <section class="what_wedo_sec" id="about">
+                        <div class="content_div" data-scroll="" data-scroll-speed="3">
+                            <div class="sec_head"><span class="for_mob">About Us</span>
+                                <h2>At Heart, I Shape Ideas Into Interfaces</h2>
+                            </div>
+                            <p>I don’t just develop apps or websites, I turn raw ideas into interactive experiences that feel natural and work beautifully.</p>
+                            <p>I'm just a curious developer who loves to Design, Build & Refine.</p>
+                            <div class="bttn"><a href="about.html" class="_link">Know more <span class="fa fa-arrow-right"></span></a></div>
+                        </div>
+                    </section>
+                    <section class="service_sec creative" id="creative">
+                        <div class="is_mobile_image">
+                            <figure class="section_img lazyload" data-bgset="assets/image/creative_sec.webp"></figure>
+                        </div>
+                        <div class="img_wraper" data-scroll data-scroll-repeat data-scroll-sticky data-scroll-target="#creative">
+                            <span data-scroll="" data-scroll-speed="1.5">
+                                <figure class="section_img lazyload" data-bgset="assets/image/creative_sec.webp"></figure>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <div class="content_div" data-scroll="" data-scroll-speed="1">
+                                <div class="sec_head"><span class="for_mob">Services</span>
+                                    <h2>Stories We Unfold </h2>
+                                </div>
+                                <P>Deep beneath, we are all storytellers waiting to tell your story to the world. </P><span class="video-popup _link" onclick="changeVideo('Hs2WB8zv1ow')">Watch Showreel <span class="fa fa-arrow-right"></span></span>
+                            </div>
+                            <div class="for_mob_scrll">
+                                <div class="col_item">
+                                    <div class="item_div">
+                                        <h3>Creative</h3>
+                                        <div class="img_content">
+                                            <figure class="lazyload" data-bgset="assets/image/Creative-01.webp"><a class="disrtoy_body_button" href="services.html"><span class="fa fa-arrow-right"></span></a></figure>
+                                            <p>A picture is worth a thousand words. And the pictures our designers can capture can portray the totality of your brand’s image. </p>
+                                        </div>
+                                    </div>
+                                    <div class="item_div">
+                                        <h3>Website </h3>
+                                        <div class="img_content">
+                                            <figure class="lazyload" data-bgset="assets/image/development.webp"><a class="disrtoy_body_button" href="services.html#pills-web"><span class="fa fa-arrow-right"></span></a></figure>
+                                            <p>Where can one visit to become personal with your brand? Yes, your brand home. Our Website developers along with our designers and writers work together in architecting the perfect digital home where your brand can be free to express itself. This is where anyone and everyone can visit to get acquainted with your brand.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item_div">
+                                        <h3>Performance</h3>
+                                        <div class="img_content">
+                                            <figure class="lazyload" data-bgset="assets/image/campin_mgnt.webp"><a class="disrtoy_body_button" href="services.html#pills-perfo"><span class="fa fa-arrow-right"></span></a></figure>
+                                            <p>Reach where no man or company has reached before with specialised strategies and optimised data to target and reach your treasured audience wherever they are.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item_div">
+                                        <h3>Content</h3>
+                                        <div class="img_content">
+                                            <figure class="lazyload" data-bgset="assets/image/blogs_img.webp"><a class="disrtoy_body_button" href="services.html#pills-content"><span class="fa fa-arrow-right"></span></a></figure>
+                                            <p>Words have power of their own and when placed carefully together they come out with meaning. Our writers craft words carefully together to give your brand the perfect identity and message it needs to deliver to your audience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="protfolio_sec" id="protfolio">
+                        <div class="img_wraper" data-scroll data-scroll-repeat data-scroll-sticky data-scroll-target="#protfolio">
+                            <span data-scroll="" data-scroll-speed="1.5">
+                                <figure class="section_img lazyload" data-bgset="assets/image/protfolio_img.webp"></figure>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <div class="content_div" data-scroll="" data-scroll-speed="1">
+                                <div class="sec_head">
+                                    <h2>Portfolio</h2>
+                                </div>
+                                <P>We are what we do and what we do-<br>We Advertise. <br>“Dont tell, show” has been our motto from Day 1 which is why we’d rather let our work speak for us. Come, have a look!</P><a href="https://www.behance.net/gallery/124365599/SOCIAL-PRESENCE?tracking_source=search_projects_recommended%7CAudento" target="_blank" class="_link">View all works <span class="fa fa-arrow-right"></span></a>
+                            </div>
+                            <div class="col_item">
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Fanplay </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/fp_01.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/fP_02.webp" alt="img"> <a class="go_to_website" rel="noopener" target="_blank" href="https://fanplayiot.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>An IoT brand that helps fans cheer for their favourite sports teams and sports stars.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Nippon Toyota </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/nt_01.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/nt_02.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.instagram.com/nippon.toyota/"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Nippon Toyota - the most successful Toyota dealership in India.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Zen Mobility</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/zenmobility.jpg" alt="img"><img class="lazyload image_02" data-src="assets/image/zenmobility_01.jpg" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="http://zenmobility.com/"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>ZEN Mobility stands for 'Zero Emission New Mobility'. A mobility solution with zero impact on nature</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Haeal </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/hel_01.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/hel_02.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://haeal.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>A nature based, Kerala raised ayurvedic brand that promotes healthy natural living.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>FITCO</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/fitco.jpg" alt="img"><img class="lazyload image_02" data-src="assets/image/fitco_01.jpg" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://haeal.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>FITCO, The Fittest Community</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Da Ravinto </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/daravinto.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/daravinto_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.instagram.com/daravinto/"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>A health food brand that specializes in modernized ancient food. </p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Yummy Valley </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/yv.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/yv_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://yummy-valley.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Yummy Valley specializes in natural, organic food for little ones.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Poonch </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/poonch.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/poonch_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Poonch delivers healthy, cooked meals for puppers throughout Banglore.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Doors Dubai</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/doors.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/doors_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.doorsdubai.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>A restaurant that immerses diners in a unique fine dining environment.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Bharath Benz </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/bharath.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/bharath_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.youtube.com/watch?v=-lQbJtDP-50"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Bharatbenz, a subsidiary of Daimler that produces premium trucks and buses.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Autobahn Trucking </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/autobahn.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/autobahn_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.autobahntrucking.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Autobahn Trucking is an authorized dealer of Daimler Vehicles.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>The Unbottle Co. </h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/unbottle.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/unbottle_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.theunbottle.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>The Unbottle Co sells environment-friendly beauty products.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Nippon UTrust</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/u_trust.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/u_trust_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.toyotautrust.in"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Toyota U Trust is a used car program by Toyota Kirloskar Motors.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Inzeron Trading</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/inzeron.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/inzeron_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://autobahncorp.com/group-companies/inzerontrading/"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Inzeron Trading provides end-to-end business solutions to customers.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Medilica</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/medilica.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/medilica_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://autobahncorp.com/group-companies/medilica/"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Medilica provides access to high quality health products around the world.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Mathrubhumi FindHome</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/find_home.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/find_home_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.findhome.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Find Home is a comprehensive online real estate marketplace.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Blossoms Inners</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/blossom.webp" alt="img"><img class="lazyload image_02" data-src="assets/image/blossom_01.webp" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://blossominners.com"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Blossom is a certified innerwear company that commenced operations in 1982.</p>
+                                    </div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="port_head">
+                                        <h2>Manorama Horizon</h2>
+                                    </div>
+                                    <figure><img class="lazyload image_01" data-src="assets/image/manorama_horizon.jpg" alt="img"><img class="lazyload image_02" data-src="assets/image/manorama_horizon_01.jpg" alt="img"><a class="go_to_website" rel="noopener" target="_blank" href="https://www.manoramahorizon.com/"><span class="fa fa-arrow-right"></span></a></figure>
+                                    <div class="port_content">
+                                        <p>Manorma Horizon live tuition for classes 8-12 CBSE and Kerala State Board.</p>
+                                    </div>
+                                </div>						
+                            </div>
+                        </div>
+                    </section>
+                    <section class="blog_sec" id="blog">
+                        <div class="img_wraper" data-scroll data-scroll-repeat data-scroll-sticky data-scroll-target="#blog">
+                            <span data-scroll="" data-scroll-speed="1.5">
+                                <figure class="section_img lazyload" data-bgset="assets/image/blog_sec.webp"></figure>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <div class="content_div" data-scroll="" data-scroll-speed="1">
+                                <div class="sec_head"><span class="for_mob">Blog</span>
+                                    <h2>Our Stories</h2>
+                                </div>
+                                <P>Everyone has a story to tell. Here is ours. <br>Learn more about Digital Advertising. Learn more about me. </P>
+                            </div>
+                            <div class="col_item">
+                                <div class="item_div">
+                                    <div class="blog_content"><a href="imagevsvideo"><label class="update">Latest</label>
+                                            <div class="figure scene">
+                                                <figure class="lazyload" data-depth="2" data-bgset="assets/image/gif_video.webp"></figure>
+                                            </div>
+                                            <h3>Images vs Video vs GIFs- Which Should I choose?</h3><span class="fa fa-arrow-right"></span>
+                                            <div class="date_rtime">
+                                                <p>21 Jan 2021</p>
+                                                <p>10 mins read</p>
+                                                <p class="latest">Latest</p>
+                                            </div>
+                                        </a></div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="blog_content"><a href="social-tools"><label class="update">Latest</label>
+                                            <div class="figure scene">
+                                                <figure class="lazyload" data-depth="2" data-bgset="assets/image/social_med.webp"></figure>
+                                            </div>
+                                            <h3>Upgrade your brand with these 5 social media tools </h3><span class="fa fa-arrow-right"></span>
+                                            <div class="date_rtime">
+                                                <p>21 Jan 2021</p>
+                                                <p>15 mins read</p>
+                                            </div>
+                                        </a></div>
+                                </div>
+                                <div class="item_div">
+                                    <div class="blog_content"><a href="content-marketing"><label class="update">Latest</label>
+                                            <div class="figure scene">
+                                                <figure class="lazyload" data-depth="2" data-bgset="assets/image/marketing_blog.webp"></figure>
+                                            </div>
+                                            <h3>What the future looks like for content marketing?</h3><span class="fa fa-arrow-right"></span>
+                                            <div class="date_rtime">
+                                                <p>21 Jan 2021</p>
+                                                <p>15 mins read</p>
+                                            </div>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="contact_sec" id="contact">
+                        <div class="img_wraper" data-scroll data-scroll-repeat data-scroll-sticky data-scroll-target="#contact">
+                            <span data-scroll="" data-scroll-speed="1.5">
+                                <figure class="section_img lazyload" data-bgset="assets/image/contact_us.webp"></figure>
+                            </span>
+                        </div>
+                        <div class="row" data-scroll="" data-scroll-speed="1">
+                            <div class="content_div">
+                                <div class="sec_head"><span class="for_mob">Contact Me</span>
+                                    <h2>Interested? <br>Let’s talk!</h2>
+                                </div>
+                                <P>Just fill this simple form in and I will contact you promptly to discuss your project. Hate forms? Drop me a line at <a href="mailto:ktharu0305@gmail.com">ktharu0305@gmail.com</a>.</P><a href="contact.html" class="_link">Read More <span class="fa fa-arrow-right"></span></a>
+                            </div>
+                            <div class="col_form">
+                                <div class="form-wrapper">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li class="nav-item" role="tab"> <a class="nav-link disrtoy_body active" data-toggle="tab" href="#work_with_us">Reach out to me</a></li>
+                                        <li class="nav-item" role="tab"><a class="nav-link disrtoy_body" data-toggle="tab" href="#say_hi">Say hi</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="say_hi" class="tab-pane fade">
+                                            <form action="" class="form" name="say_hi" id="say-hi">
+                                                <div class="form_outer">
+                                                    <div class="form-group"><label class="form-label" for="name">Name*</label><input id="name_say_hi" name="Name" class="form-input" type="text" /></div>
+                                                    <div class="form-group"><label class="form-label" for="mail">Email Id*</label><input id="mail_say_hi" name="Email_id" class="form-input" type="mail" /></div>
+                                                    <div class="form-group"><label class="form-label" for="mobile">Mobile*</label><input id="mobile_say_hi" name="Mobile" class="form-input" type="text" /></div>
+                                                    <div class="form-group"><label class="form-label" for="message">Message*</label><textarea id="message_say_hi" name="Message" class="form-input" type="Your Message"></textarea></div>
+                                                    <div class="form-group"><button id="say-hi-btn" type="submit" class="_link">Submit<span class="fa fa-arrow-right"></span></button></div>
+                                                </div>
+                                                <p class="success_form"></p>
+                                            </form>
+                                        </div>
+                                        <div id="work_with_us" class="tab-pane active">
+                                            <form action="" class="form" name="work_with_us" id="work-with-us">
+                                                <div class="form_outer">
+                                                    <div class="form-group"><label class="form-label" for="name">Name*</label><input id="name" name="Name" class="form-input" type="text" /></div>
+                                                    <div class="form-group"><label class="form-label" for="mail">Email Id*</label><input id="mail" name="Email_id" class="form-input" type="mail" /></div>
+                                                    <div class="form-group"><label class="form-label" for="mobile">Mobile*</label><input id="mobile" name="Mobile" class="form-input" type="text" /></div>
+                                                    <div class="form-group"><label class="form-label" for="message">Message*</label><textarea id="message" name="Message" class="form-input" type="Your Message"></textarea></div>
+                                                </div>
+                                                <div class="form_need_btns">
+                                                    <div class="form-group">
+                                                        <h3>I need *</h3>
+                                                        <div class="buttons_outer">
+                                                            <ul class="radio_btns">
+                                                                <li><input class="checkbox" name="need[]" id="hybrid_apps" type="checkbox" value="Hybrid Apps" checked><label for="hybrid_apps">Hybrid Apps</label></li>
+                                                                <li><input class="checkbox" name="need[]" id="websites" type="checkbox" value="Websites"><label for="websites">Websites</label></li>
+                                                                <li><input class="checkbox" name="need[]" id="android_apps" type="checkbox" value="Android Apps"><label for="android_apps">Android Apps</label></li>
+                                                                <li><input class="checkbox" name="need[]" id="ios_apps" type="checkbox" value="IOS Apps"><label for="ios_apps">IOS Apps</label></li>
+                                                                <li><input class="checkbox" name="need[]" id="freelancing" type="checkbox" value="Freelancing"><label for="freelancing">Freelancing</label></li>
+                                                                <li><input class="checkbox" name="need[]" id="photoshop" type="checkbox" value="Photoshop"><label for="photoshop">Photoshop</label></li>
+                                                                <li><input class="checkbox" name="need[]" id="web" type="checkbox" value="Website Design"><label for="web">Website Design</label></li>
+                                                                <li><input class="checkbox" name="need[]" id="ui_ux" type="checkbox" value="UI/UX Design"><label for="ui_ux">UI/UX Design</label></li>
+                                                                <li><input class="checkbox" name="need[]" id="other" type="checkbox" value="Other"><label for="other">Other</label></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group"><button id="work-btn" type="submit" class="_link">Submit<span class="fa fa-arrow-right"></span></button></div>
+                                                </div>
+                                                <p class="success_form"></p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact_address">
+                            <div class="outer_div_sddrs" data-scroll="" data-scroll-speed="1.5">
+                                <div class="div_item_sdress">
+                                    <h4>Call</h4><a href="tel:+94771000516">+94 771000516</a>
+                                </div>
+                                <div class="div_item_sdress">
+                                    <h4>Write</h4><a href="mailto:ktharu0305@gmail.com">ktharu0305@gmail.com</a>
+                                    <a class="whatsapp" href="https://wa.me/+94771000516" target="_blank">Whatsapp</a>
+                                    <!--a class="write_ceo" href="mailto:farzad@autobahncorp.com">Write direct to MD ></a-->
+                                </div>
+                                <div class="div_item_sdress">
+                                    <h4>Visit me at </h4>
+                                    <p>No 4, Ampalawanar Road, Attiyadi,<br>Jaffna. <br>Sri Lanka. <br>40000</p>
+                                </div>
+                            </div>
+                            <!-- <div class="scroll_back"><a class="click_page" data-target="wrapper" href="#"><span class="fa fa-arrow-right"></span> <p>back</p></a></div> -->
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
+
+        <script>
+            window.addEventListener('DOMContentLoaded', function() {
+                (function($) {
+                    /*jQuery("ul.radio_btns li input.checkbox").click(function(){jQuery(this).prop('checked', true);});*/
+                    jQuery.validator.addMethod("validEmail", function(value, element) {
+                        var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                        if (filter.test(value)) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    }, "Please enter a valid email address");
+                    jQuery.validator.addMethod("phoneno", function(value, element) {
+                        var mobilenumber = /^[0-9+\s]+$/;
+                        value = value.replace(/\s+/g, "");
+                        return this.optional(element) || (mobilenumber.test(value));
+                    }, "Please enter a valid phone number");
+                    jQuery.validator.addMethod("script_valid", function(value, element) {
+                        var script = /['^£$%&*()}{@#~?><>|=+¬]/;
+                        value = value.replace(/\s+/g, ""); });
+                        // return this.optional(element) || (script.test(value));if (script.test(value)){return false;}else{return true;}}, "Invalid character");jQuery.validator.addMethod("noSpace", function(value, element){if($.trim(value).length > 0){return true;}else{return false;}}, "Space are not allowed"); jQuery.validator.addMethod("specialChars", function (value, element){var filter=/^[a-zA-Z\.]+$/;if (filter.test(value)){return true;}else{return false;}}, "Please use only alphabetic characters"); jQuery("#work-with-us").validate({ignore: "",rules:{Name:{required: true,specialChars:true,noSpace:true,minlength: 2,maxlength: 50},Mobile:{required: true,phoneno:true,minlength: 7,maxlength: 15}, Email_id:{required: true,email: true,validEmail: true},Message:{required: true,script_valid:true,},},messages:{Name:{required: "Please enter the name",},Email_id: "Please enter a valid email address",Mobile:{required: "Please enter the mobile number",phoneno:"Please enter a valid mobile number",minlength:"Please enter atleast 7 digits",maxlength:"Please enter no more than 15 digits"},Message:{required: "Please enter the message",script_valid:"Please enter a valid message",}},errorElement: 'div',normalizer: function (value){// Note: the value of `this` inside the `normalizer` is the corresponding// DOMElement. In this example, `this` reference the `username` element.// Trim the value of the inputreturn jQuery.trim(value);},submitHandler: function (form){jQuery("form#work-with-us").addClass("work-with-us-load");jQuery("#work-btn").attr("disabled", true);var need=$('.checkbox:checked').map(function(){return this.value;}).get().join();const scriptURL='https://script.google.com/macros/s/AKfycbxox2UjCVcBgD2Gl0QZzjGunNC-O7pQfeoVFwaDIziLg1MCaP4/exec'const formData=new FormData(form);formData.append("Type", "Work with Us");formData.append("Need", need);formData.append("Source", "Website");async function pushto_sheet(){let response=await fetch(scriptURL,{method: 'POST', body: formData});if (response.ok){// if HTTP-status is 200-299 // get the response body (the method explained below) let json=await response.json(); jQuery("form#work-with-us").removeClass("work-with-us-load"); jQuery("form#work-with-us p.success_form").text("Thank you for reaching us."); jQuery("form#work-with-us p.success_form").css('color','green');}else{alert("HTTP-Error: " + response.status);}}jQuery.ajax({url: "email",//dataType: 'json',method: 'POST',processData: false,contentType: false,data: formData,success: function(response){if(response=='Message sent successfully...'){pushto_sheet();}else{jQuery("form#work-with-us p.success_form").html(response);jQuery("form#work-with-us p.success_form").css('color','red');}jQuery("#work-btn").attr("disabled", false);}});},}); jQuery("#say-hi").validate({ignore: "",rules:{Name:{required: true,specialChars:true,noSpace:true,minlength: 2,maxlength: 50}, Email_id:{required: true,email: true,validEmail: true},Mobile:{required: true,phoneno:true,minlength: 7,maxlength: 15},Message:{required: true,script_valid:true,noSpace:true},},messages:{Name:{required: "Please enter the name",},Email_id: "Please enter a valid email address",Mobile:{required: "Please enter the mobile number",phoneno:"Please enter a valid mobile number",minlength:"Please enter atleast 7 digits",maxlength:"Please enter no more than 15 digits"},Message:{required: "Please enter the message",script_valid:"Please enter a valid message",}},errorElement: 'div',normalizer: function (value){// Note: the value of `this` inside the `normalizer` is the corresponding// DOMElement. In this example, `this` reference the `username` element.// Trim the value of the inputreturn jQuery.trim(value);},submitHandler: function (form){jQuery("#say-hi-btn").attr("disabled", true);jQuery("form#say-hi").addClass("say-hi-load");//jQuery("form#say-hi p.success_form").text("Thank you for reaching us.");const scriptURL='https://script.google.com/macros/s/AKfycbxox2UjCVcBgD2Gl0QZzjGunNC-O7pQfeoVFwaDIziLg1MCaP4/exec'const formData=new FormData(form);formData.append("Type", "Say Hi");formData.append("Source", "Website");async function pushto_sheet(){let response=await fetch(scriptURL,{method: 'POST', body: formData});if (response.ok){// if HTTP-status is 200-299 // get the response body (the method explained below) let json=await response.json(); jQuery("form#say-hi").removeClass("say-hi-load"); jQuery("form#say-hi p.success_form").text("Thank you for reaching us."); jQuery("form#say-hi p.success_form").css('color','green');}else{alert("HTTP-Error: " + response.status);}}jQuery.ajax({url: "email",//dataType: 'json',method: 'POST',processData: false,contentType: false,data: formData,success: function(response){if(response=='Message sent successfully...'){pushto_sheet();}else{jQuery("form#say-hi p.success_form").html(response);jQuery("form#say-hi p.success_form").css('color','red');}jQuery("#say-hi-btn").attr("disabled", false);}});},});})(jQuery);});
+                });
+            })
+        </script>
+
+        <div class="video-frame">
+            <iframe title="videoframe" id="iframeYoutube" src="" frameborder="0" allowfullscreen></iframe>
+            <div class="cls-btn" style="display:block;">
+                <span></span>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="mob_footer">
+                <figure class="logo">
+                    <a href="https://audentodigital.com/">
+                        <img src="assets/image/logo_text.svg" alt="logo">
+                    </a>
+                </figure>
+                <ul class="left">
+                    <li><a href="https://github.com/TharusanK23" rel="noopener" target="_blank">
+                            <p>Gh</p><span class="fab fa-github"></span>
+                        </a></li>
+                    <li><a href="https://www.linkedin.com/in/tharusank23/" rel="noopener" target="_blank">
+                            <p>In</p><span class="fab fa-linkedin-in"></span>
+                        </a></li>
+					<li><a href="https://www.facebook.com/TharusanK23" rel="noopener" target="_blank">
+                            <p>Fb</p><span class="fab fa-facebook-f"></span>
+                        </a></li>
+                    <li><a href="https://www.instagram.com/tharusan_k_23/" rel="noopener" target="_blank">
+                            <p>Ig</p><span class="fab fa-instagram"></span>
+                        </a></li>
+                    <li><a href="https://x.com/tharusanK23" rel="noopener" target="_blank">
+                            <p>Tw</p><span class="fab fa-x-twitter"></span>
+                        </a></li>
+                </ul>
+                <div class="text">
+                    <p>© <span id="current-year"></span> K Tharusan. All rights reserved.</p>
+                    <p><a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="audento">
+            <span class="" data-scroll="" data-scroll-speed="1">Audento</span>
+        </div>
+
+        <div class="scene velvet">
+            <div data-depth="0.5" class="bg_velvet"></div>
+        </div>
+
+        <i class="overlay"></i>
+
+        <svg class="cursor" width="20" height="20" viewBox="0 0 20 20">
+            <circle class="cursor__inner" cx="10" cy="10" r="5"></circle>
+        </svg>
+
+
+        <script>
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
+
+        <!-- Lazyload -->
+        <script src="assets/js/vendors/ls.parent-fit.min.js" async=""></script>
+        <script src="assets/js/vendors/ls.bgset.min.js" async=""></script>
+        <script src="assets/js/vendors/lazysizes.min.js" async=""></script>
+
+        <script>
+            function changeVideo(vId) {
+                var iframe = document.getElementById("iframeYoutube");
+                iframe.src = "https://www.youtube.com/embed/" + vId + "?autoplay=1&amp;rel=0&amp;hd=1&amp;modestbranding=1&amp;autoplay=1&amp;showinfo=0&amp;";
+            }
+        </script>
+    </body>
+</html>

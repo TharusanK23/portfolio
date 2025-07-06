@@ -1,0 +1,35 @@
+{
+  "name": "Audento Digital",
+  "short_name": "Audento",
+  "theme_color": "#8D131C",
+  "background_color": "#03030F",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/image/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null,
+  "dir": "ltr",
+  "orientation": "portrait",
+  "lang": "en-US"
+}
