@@ -38,7 +38,11 @@
 
     </head>
     <!-- <body class="loading"> -->
-    <body class="loading">
+    <body class="loading" oncontextmenu="return false">
+
+        <div id="snowflakeContainer" style="display: block;">
+            <span class="snowflake"></span>
+        </div>
 
         <header class="main-header">
             <div class="header_container">
@@ -482,12 +486,8 @@
         <script src="assets/js/vendors/ls.bgset.min.js" async=""></script>
         <script src="assets/js/vendors/lazysizes.min.js" async=""></script>
 
-        <script>
-            function changeVideo(vId) {
-                var iframe = document.getElementById("iframeYoutube");
-                iframe.src = "https://www.youtube.com/embed/" + vId + "?autoplay=1&amp;rel=0&amp;hd=1&amp;modestbranding=1&amp;autoplay=1&amp;showinfo=0&amp;";
-            }
-        </script>
+        <script src="assets/js/snow.js"></script>
+        <script src="assets/js/cursor.js"></script>
 
     </body>
 </html>

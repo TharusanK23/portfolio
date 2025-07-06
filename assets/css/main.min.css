@@ -19372,4 +19372,21 @@ footer .mob_footer .text p+p {
     }
 }
 
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #C6C6C6;
+    user-select: none;
+    z-index: 9999;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
 /*# sourceMappingURL=main.min.css.map */
