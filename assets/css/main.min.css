@@ -12050,7 +12050,7 @@ header .header_container .logo {
 
 @media (max-width: 1800.98px) {
     header .header_container .logo {
-        width:3.625rem
+        width:2.625rem
     }
 }
 
@@ -12554,8 +12554,8 @@ header .top_header .right .menu_click .icon {
 
 @media (max-width: 1799.98px) {
     .more_menu .logo {
-        width:15.625rem;
-        top: 1.875rem
+        width:13.625rem;
+        top: 0.0rem
     }
 }
 
@@ -19390,3 +19390,31 @@ footer .mob_footer .text p+p {
     height: 10px;
   }
 /*# sourceMappingURL=main.min.css.map */
+
+/* .mobile-body {
+    display: none;
+} */
+@media screen and (max-width: 767px) {
+    .mobile-body {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        background-image: url('../../assets/image/logo.svg');
+        background-size: 250px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 9999;
+    }
+    body {
+        overflow: hidden;
+      }
+    
+}
