@@ -19400,7 +19400,7 @@ footer .mob_footer .text p+p {
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         background-color: #000;
         background-image: url('../../assets/image/logo.svg');
         background-size: 250px auto;
